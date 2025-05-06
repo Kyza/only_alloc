@@ -7,7 +7,7 @@ authors = ["Kyza"]
 license = "MIT"
 homepage = "https://github.com/Kyza/only_alloc"
 keywords = ["allocator", "memory", "no_std", "no-std"]
-categories = ["memory-management", "no-standard-library"]
+categories = ["memory-management", "no-std"]
 
 [dependencies]
 
