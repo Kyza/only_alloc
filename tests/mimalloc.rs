@@ -2,7 +2,7 @@
 
 use core::alloc::{GlobalAlloc, Layout};
 
-use alloc_metrics::{global_metrics, MetricAlloc};
+use alloc_metrics::{MetricAlloc, global_metrics};
 use mimalloc::MiMalloc;
 use only_alloc::GlobalOnlyAlloc;
 

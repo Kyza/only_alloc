@@ -2,15 +2,19 @@
 name = "only_alloc"
 version = "0.1.0"
 edition = "2021"
+description = "An allocator wrapper that disables deallocating memory within it."
+license = "MIT"
+authors = ["Kyza"]
+homepage = "https://github.com/Kyza/only_alloc"
 
 [dependencies]
 
 [dev-dependencies]
-alloc-metrics = { version = "0.1.1", default-features = false, features = [
+alloc-metrics = { version = "0.1", default-features = false, features = [
 	"global",
 ] }
-mimalloc = { version = "0.1.44", features = ["secure"] }
-rand = "0.9.0"
+mimalloc = { version = "0.1", features = ["secure"] }
+rand = "0.9"
 
 [features]
 alloc_trait = []
